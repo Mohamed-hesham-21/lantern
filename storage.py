@@ -20,4 +20,4 @@ def load():
 def save(tasks):
     """Save the given tasks list to the tasks.json file in a single line."""
     with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(tasks, f)
+        json.dump(tasks, f, indent=2)
