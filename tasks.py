@@ -1,7 +1,5 @@
-# def add_task(title):
-#     task = {"title": title}
 def add_task(title):
-    task = {"title": title.strip()}
+    task = {"title": title.strip(), "done": False}
     return task
 
 
