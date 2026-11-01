@@ -10,3 +10,5 @@ Task CLI is a lightweight command-line tool to manage your daily tasks. Below ar
 - **`remove <id>`**: Delete a task from the list by its ID.
 
 ## This should be a new header that will mistakely commited in main instead of it's own branch
+
+## lantern remove command is a remove command!!
