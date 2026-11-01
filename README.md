@@ -1,6 +1,6 @@
-# lantern
 ## Team
 
-| Name | Role | email|
-|---|---|---|
-| Mohamed Hesham | Student B | Mohamed-hesham-21 |
+| Name               | Role      | email             |
+| ------------------ | --------- | ----------------- |
+| Eman Mahmoud Ahmed | Student A | emanmahmoud25     |
+| Mohamed Hesham     | Student B | Mohamed-hesham-21 |
