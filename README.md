@@ -1,7 +1,7 @@
 ## Team
 
-| Name | Role |
-|---|---|
-| Eman Mahmoud Ahmed | Student A |
-| Eman Mahmoud Ahmed | emanmahmoud25 |
+| Name | Role | email|
+|---|---|---|
+| Eman Mahmoud Ahmed | Student A | emanmahmoud25 |
+
 
