@@ -15,7 +15,7 @@ add_parser.add_argument("title")
 
 # List command
 list_parser = sub.add_parser("list")
-
+list_parser.add_argument("--sort", action="store_true", help="sort tasks by title")
 
 if __name__ == "__main__":
     args = parser.parse_args()
