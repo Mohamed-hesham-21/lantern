@@ -15,7 +15,6 @@ add_parser.add_argument("title")
 
 # List command
 list_parser = sub.add_parser("list")
-list_parser.add_argument("--sort", action="store_true", help="sort tasks by title")
 
 if __name__ == "__main__":
     args = parser.parse_args()
@@ -25,7 +24,4 @@ if __name__ == "__main__":
         print(f"Task added: {task['title']}")
     elif args.command == "list":
             tasks = list_tasks()
-            if not tasks:
-                print("No tasks found.")
-            else:
-                print(tasks)
+            print(tasks)
