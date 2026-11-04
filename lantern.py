@@ -15,6 +15,7 @@ add_parser.add_argument("title")
 
 # List command
 list_parser = sub.add_parser("list")
+# add argument sort
 list_parser.add_argument("--sort", action="store_true", help="sort tasks by title")
 list_parser.add_argument(
     "--done",
@@ -33,7 +34,9 @@ if __name__ == "__main__":
         if not tasks:
             print("No tasks found.")
         else:
+            # check if the --sort is passed in args
             if args.sort:
+                # sort the tasks by sorted algo
                 tasks = sorted(tasks, key=lambda x: x.get("title", ""))
             for task in tasks:
                 print(task)
